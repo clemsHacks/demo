@@ -18,7 +18,6 @@ public class StudentConfig {
 
             Student alex = new Student(
                     "Alex","alex@gmail.com", LocalDate.of(1997,Month.FEBRUARY, 7));
-
             repository.saveAll(
                     List.of(mariam, alex)
             );
